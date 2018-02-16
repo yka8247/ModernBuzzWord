@@ -1,5 +1,11 @@
 package-lock.json
 
+# IDE
+.idea/
+
+# Gulp generated
+dist/
+
 # Logs
 logs
 *.log
