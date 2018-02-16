@@ -1,0 +1,35 @@
+{
+  "name": "modernbuzzword",
+  "version": "1.0.0",
+  "description": "Aggregates modern buzzwords to create new startup-company name ideas.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp && nodemon app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinza0188/ModernBuzzWord.git"
+  },
+  "author": "tlr3552@rit.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hinza0188/ModernBuzzWord/issues"
+  },
+  "homepage": "https://github.com/hinza0188/ModernBuzzWord#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15",
+    "angular": "^1.6.9",
+    "angular-ui-router": "^0.2.18",
+    "express": "^4.16.2",
+    "underscore": "^1.8.3",
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "3.7.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

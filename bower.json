@@ -1,0 +1,22 @@
+{
+  "name": "modernbuzzword",
+  "description": "Aggregates buzzwords to create new startup-company name ideas.",
+  "main": "server.js",
+  "authors": [
+    "tlr3552@rit.edu"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hinza0188/ModernBuzzWord",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-ui-router": "^1.0.15"
+  }
+}
