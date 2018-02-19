@@ -1,0 +1,46 @@
+{
+  "words":[
+    {
+      "word":"Aggregator",
+      "category":"a"
+    },
+    {
+      "word":"Agile",
+      "category":"b"
+    },
+    {
+      "word":"Ajax",
+      "category":"a"
+    },
+    {
+      "word":"Algorithm",
+      "category":"c"
+    },
+    {
+      "word":"Benchmarking",
+      "category":"d"
+    },
+    {
+      "word":"Back-end",
+      "category":"a"
+    },
+    {
+      "word":"Beta",
+      "category":"b"
+    },
+    {
+      "word":"Bleeding edge",
+      "category":"d"
+    },
+    {
+      "word":"Blockchain",
+      "category":"c"
+    }
+  ],
+  "categories":
+  [ "a",
+    "b",
+    "c",
+    "d"
+  ]
+}
