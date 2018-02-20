@@ -15,6 +15,12 @@ gulp.task('inject', function () {
       .pipe(gulp.dest('./'));
 });
 
+gulp.task('bower', function () {
+  gulp.src('./index.html')
+    .pipe(wiredep())
+    .pipe(gulp.dest('./'));
+});
+
 gulp.task('client_js', function() {
   return gulp.src('./app/**/*.js')
       // .pipe(uglify())
@@ -22,18 +28,4 @@ gulp.task('client_js', function() {
       .pipe(gulp.dest('./dist'));
 })
 
-gulp.task('default', gulpSequence('client_js', 'inject'));
-
-
-// gulp.task('vendor_js', function() {
-//
-//
-//   var stream = gulp.src('./index.html')
-//     .pipe(wiredep(
-//       {
-//         directory: 'bower_components'
-//       }
-//     ))
-//     .pipe(gulp.dest('./'));
-//   return stream;
-// });
+gulp.task('default', gulpSequence('client_js', 'bower', 'inject'));

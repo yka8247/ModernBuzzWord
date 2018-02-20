@@ -1,4 +1,5 @@
 package-lock.json
+dist/client_scripts.js
 
 # IDE
 .idea/
