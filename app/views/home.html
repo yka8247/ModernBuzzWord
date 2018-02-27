@@ -1,0 +1,35 @@
+<div>
+    <div layout="row" layout-align="center">
+        <div layout="column" >
+            <h2 class="md-flex">{{ buzzWord }}</h2>
+        </div>
+    </div>
+    <div layout="row" layout-align="center">
+        <div layout="column" >
+            <h3 class="md-flex">{{ genSent }}</h3>
+        </div>
+    </div>
+    <div layout="row" layout-align="center">
+        <div layout="column" >
+            <md-button md-no-ink class="md-primary">Random</md-button>
+        </div>
+        <div layout="column" >
+            <md-button md-no-ink class="md-primary">Select Category</md-button>
+        </div>
+    </div>
+    <div layout="row" layout-align="center">
+        <div layout="column" ng-repeat="cat in categories">
+            <div class="md-flex">
+                <md-content>
+                    <md-list flex layout-padding>
+                        <md-list-item ng-repeat="wrd in cat.buzzword">
+                            <div>
+                                <h3>{{ wrd.text }}</h3>
+                            </div>
+                        </md-list-item>
+                    </md-list>
+                </md-content>
+            </div>
+        </div>
+    </div>
+</div>

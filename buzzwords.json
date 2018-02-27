@@ -1,41 +1,388 @@
 {
   "words":[
     {
-      "word":"Aggregator",
-      "category":"a"
-    },
-    {
       "word":"Agile",
-      "category":"b"
-    },
-    {
-      "word":"Ajax",
-      "category":"a"
-    },
-    {
-      "word":"Algorithm",
-      "category":"c"
-    },
-    {
-      "word":"Benchmarking",
-      "category":"d"
+      "category":"SE"
     },
     {
       "word":"Back-end",
-      "category":"a"
+      "category":"Tech"
     },
+
     {
-      "word":"Beta",
-      "category":"b"
+      "word":"Big data",
+      "category":"Trends"
     },
     {
       "word":"Bleeding edge",
-      "category":"d"
+      "category":"...solutions"
     },
     {
       "word":"Blockchain",
-      "category":"c"
+      "category":"Tech"
+    },
+    {
+      "word":"BYOD",
+      "category":"Tech"
+    },
+    {
+      "word":"Cloud",
+      "category":"Tech"
+    },
+    {
+      "word":"Collaboration",
+      "category":"Business"
+    },
+    {
+      "word":"Synergy",
+      "category":"Business"
+    },
+    {
+      "word":"Cross-platform",
+      "category":"...solutions"
+    },
+    {
+      "word":"Datafication",
+      "category":"Trends"
+    },
+    {
+      "word":"Data mining",
+      "category":"Trends"
+    },
+    {
+      "word":"Deep dive",
+      "category":"Business"
+    },
+    {
+      "word":"Deep learning",
+      "category":"Trends"
+    },
+    {
+      "word":"Design pattern",
+      "category":"SE"
+    },
+    {
+      "word":"DevOps",
+      "category":"SE"
+    },
+    {
+      "word":"Disrupt",
+      "category":"Verb"
+    },
+    {
+      "word":"Front-end",
+      "category":"Tech"
+    },
+    {
+      "word":"Growth Hacking",
+      "category":"Startup"
+    },
+    {
+      "word":"IaaS",
+      "category":"Tech"
+    },
+    {
+      "word":"Immersive",
+      "category":"...solutions"
+    },
+    {
+      "word":"Internet of Things",
+      "category":"Tech"
+    },
+    {
+      "word":"Machine Learning",
+      "category":"Tech"
+    },
+    {
+      "word":"Microservices",
+      "category":"Tech"
+    },
+    {
+      "word":"Nanotechnology",
+      "category":"Tech"
+    },
+    {
+      "word":"Next Generation",
+      "category":"...solutions"
+    },
+    {
+      "word":"PaaS",
+      "category":"Tech"
+    },
+    {
+      "word":"Real-time",
+      "category":"...solutions"
+    },
+    {
+      "word":"Responsive",
+      "category":"Trends"
+    },
+    {
+      "word":"Sensorization",
+      "category":"Trends"
+    },
+    {
+      "word":"SaaS",
+      "category":"Tech"
+    },
+    {
+      "word":"Software defined",
+      "category":"Tech"
+    },
+    {
+      "word":"Viral",
+      "category":""
+    },
+    {
+      "word":"Virtualization",
+      "category":"Tech"
+    },
+    {
+      "word":"Web 2.0",
+      "category":"Trends"
+    },
+    {
+      "word":"﻿Influencer",
+      "category":"People"
+    },
+    {
+      "word":"Visionary",
+      "category":"People"
+    },
+    {
+      "word":"Unicorn",
+      "category":"People"
+    },
+    {
+      "word":"Rockstar",
+      "category":"People"
+    },
+    {
+        "word":"Change agent",
+      "category":"People"
+    },
+    {
+      "word":"VR",
+      "category":"Tech"
+    },
+    {
+      "word":"AI",
+      "category":"Tech"
+    },
+    {
+      "word":"AR",
+      "category":"Tech"
+    },
+    {
+      "word":"Actionable Analytics",
+      "category":"Business"
+    },
+    {
+      "word":"Machine Learning",
+      "category":"Tech"
+    },
+    {
+      "word":"Smart Factory",
+      "category":"Tech"
+    },
+    {
+      "word":"Analytics",
+      "category":"Tech"
+    },
+    {
+      "word":"Bandwidth",
+      "category":"Business"
+    },
+    {
+      "word":"Stratcom",
+      "category":"Business"
+    },
+    {
+      "word":"B2B",
+      "category":"Business"
+    },
+    {
+      "word":"B2C",
+      "category":"Business"
+    },
+    {
+      "word":"Best of Breed",
+      "category":"Business"
+    },
+    {
+      "word":"Best practices",
+      "category":"Business"
+    },
+    {
+      "word":"Bizmeth",
+      "category":"Business"
+    },
+    {
+      "word":"Brand",
+      "category":"Business"
+    },
+    {
+      "word":"Brick-and-mortar",
+      "category":""
+    },
+    {
+      "word":"Client-centric",
+      "category":"Business"
+    },
+    {
+      "word":"Co-opetition",
+      "category":"Business"
+    },
+    {
+      "word":"Core competency",
+      "category":"Business"
+    },
+    {
+      "word":"Customer-centric(also customer-centric mindset)",
+      "category":"Business"
+    },
+    {
+      "word":"Drill down",
+      "category":"Verb"
+    },
+    {
+      "word":"Early-stage",
+      "category":"Startup"
+    },
+    {
+      "word":"Employer branding",
+      "category":"Business"
+    },
+    {
+      "word":"Dogfooding",
+      "category":"Business"
+    },
+    {
+      "word":"Enterprise",
+      "category":"...solutions"
+    },
+    {
+      "word":"Generation Y",
+      "category":"People"
+    },
+    {
+      "word":"Hyperlocal",
+      "category":""
+    },
+    {
+      "word":"Millennial",
+      "category":"People"
+    },
+    {
+      "word":"Innovative",
+      "category":""
+    },
+    {
+      "word":"Mindshare",
+      "category":"Business"
+    },
+    {
+      "word":"Mission Critical",
+      "category":"...solutions"
+    },
+    {
+      "word":"New economy",
+      "category":"Business"
+    },
+    {
+      "word":"Next generation",
+      "category":"...solutions"
+    },
+    {
+      "word":"Profit center",
+      "category":"Business"
+    },
+    {
+      "word":"Quick win",
+      "category":"Business"
+    },
+    {
+      "word":"ROI",
+      "category":"Business"
+    },
+    {
+      "word":"Seamless",
+      "category":"...solutions"
+    },
+    {
+      "word":"SOX",
+      "category":"Compliance"
+    },
+    {
+      "word":"Sustainability",
+      "category":"Trends"
+    },
+    {
+      "word":"Value-added",
+      "category":"Business"
+    },
+    {
+      "word":"Visibility",
+      "category":"Business"
+    },
+    {
+      "word":"﻿HIPAA",
+      "category":"Compliance"
+    },
+    {
+      "word":"HITECH",
+      "category":"Compliance"
+    },
+    {
+      "word":"OSHA",
+      "category":"Compliance"
+    },
+    {
+      "word":"Thought Leader",
+      "category":"People"
+    },
+    {
+      "word":"PCI",
+      "category":"Compliance"
+    },
+    {
+      "word":"GDPR",
+      "category":"Compliance"
+    },
+    {
+      "word":"﻿MEAN",
+      "category":"Tech"
+    },
+    {
+      "word":"LAMP",
+      "category":"Tech"
+    },
+    {
+      "word":"Cryptocurrency",
+      "category":"Tech"
+    },
+    {
+      "word":"Gamification",
+      "category":"Trends"
+    },
+    {
+      "word":"Wearables",
+      "category":"Tech"
+    },
+    {
+      "word":"Scalable",
+      "category":"...solutions"
+    },
+    {
+      "word":"Robust",
+      "category":"...solutions"
+    },
+    {
+      "word":"Gig Economy",
+      "category":"Trends"
     }
+
+
   ],
   "categories":
   [ "a",
