@@ -8,6 +8,9 @@ routing.config(function($stateProvider, $urlRouterProvider) {
     .state('home', {
       url: '/home',
       controller: 'HomeController',
-      templateUrl: 'app/views/home.html'
-    });
+      templateUrl: 'app/directives/home/home.html'
+    })
+    // .state('responsive', {
+    //   template: '<basic-functionality></basic-functionality>'
+    // });
 });
