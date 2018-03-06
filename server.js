@@ -4,6 +4,7 @@ var path = require('path');
 
 
 app.get('/', function(req, res) {
+
   app.use('/app', express.static(__dirname + '/app'));
 
   // bower deps
