@@ -1,0 +1,15 @@
+<div layout="row" layout-align="center">
+    <div layout="column" ng-repeat="cat in categories">
+        <div class="md-flex">
+            <md-content>
+                <md-list flex layout-padding>
+                    <md-list-item ng-repeat="wrd in cat.buzzword">
+                        <div>
+                            <h3>{{ wrd.text }}</h3>
+                        </div>
+                    </md-list-item>
+                </md-list>
+            </md-content>
+        </div>
+    </div>
+</div>

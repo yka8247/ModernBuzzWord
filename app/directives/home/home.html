@@ -5,32 +5,11 @@ will be done here as well, such us aligning each directive -->
 <!--This instance of home.html is the one being loaded, the one in app/views/
 is for reference only.-->
 <div>
-    <div layout="row" layout-align="center">
-        <div layout="column" >
-            <h2 class="md-flex">{{ buzzWord }}</h2>
-        </div>
-    </div>
-    <div layout="row" layout-align="center">
-        <div layout="column" >
-            <h3 class="md-flex">{{ genSent }}</h3>
-        </div>
-    </div>
     <div layout="row" layout-align="center" flex>
       <basic-functionality></basic-functionality>
     </div>
-    <div layout="row" layout-align="center">
-        <div layout="column" ng-repeat="cat in categories">
-            <div class="md-flex">
-                <md-content>
-                    <md-list flex layout-padding>
-                        <md-list-item ng-repeat="wrd in cat.buzzword">
-                            <div>
-                                <h3>{{ wrd.text }}</h3>
-                            </div>
-                        </md-list-item>
-                    </md-list>
-                </md-content>
-            </div>
-        </div>
+
+    <div layout="row" layout-align="center" flex>
+        <cat-word-list></cat-word-list>
     </div>
 </div>

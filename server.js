@@ -12,7 +12,10 @@ app.get('/', function(req, res) {
   // client code
   app.use('/dist', express.static(__dirname + '/dist'));
 
-  res.sendFile(path.join(__dirname + '/index.html'));
-})
+  //
+  app.use('./directives/categories/catWordList.json');
 
-app.listen(3000, () => console.log('App listening on port 3000!'))
+  res.sendFile(path.join(__dirname + '/index.html'));
+});
+
+app.listen(3000, () => console.log('App listening on port 3000!'));
