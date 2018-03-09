@@ -50,16 +50,8 @@
       "category":"Trends"
     },
     {
-      "word":"Deep dive",
-      "category":"Business"
-    },
-    {
       "word":"Deep learning",
       "category":"Trends"
-    },
-    {
-      "word":"Design pattern",
-      "category":"SE"
     },
     {
       "word":"DevOps",
@@ -86,7 +78,7 @@
       "category":"...solutions"
     },
     {
-      "word":"Internet of Things",
+      "word":"IOT",
       "category":"Tech"
     },
     {
@@ -118,10 +110,6 @@
       "category":"Trends"
     },
     {
-      "word":"Sensorization",
-      "category":"Trends"
-    },
-    {
       "word":"SaaS",
       "category":"Tech"
     },
@@ -131,7 +119,7 @@
     },
     {
       "word":"Viral",
-      "category":""
+      "category":"Trends"
     },
     {
       "word":"Virtualization",
@@ -158,7 +146,7 @@
       "category":"People"
     },
     {
-        "word":"Change agent",
+      "word":"Change agent",
       "category":"People"
     },
     {
@@ -222,12 +210,8 @@
       "category":"Business"
     },
     {
-      "word":"Brick-and-mortar",
-      "category":""
-    },
-    {
       "word":"Client-centric",
-      "category":"Business"
+      "category":"...solutions"
     },
     {
       "word":"Co-opetition",
@@ -238,8 +222,8 @@
       "category":"Business"
     },
     {
-      "word":"Customer-centric(also customer-centric mindset)",
-      "category":"Business"
+      "word":"Customer-centric",
+      "category":"...solutions"
     },
     {
       "word":"Drill down",
@@ -248,10 +232,6 @@
     {
       "word":"Early-stage",
       "category":"Startup"
-    },
-    {
-      "word":"Employer branding",
-      "category":"Business"
     },
     {
       "word":"Dogfooding",
@@ -267,7 +247,7 @@
     },
     {
       "word":"Hyperlocal",
-      "category":""
+      "category":"...solutions"
     },
     {
       "word":"Millennial",
@@ -275,7 +255,7 @@
     },
     {
       "word":"Innovative",
-      "category":""
+      "category":"...solutions"
     },
     {
       "word":"Mindshare",
@@ -314,7 +294,7 @@
       "category":"Compliance"
     },
     {
-      "word":"Sustainability",
+      "word":"Sustainabile",
       "category":"Trends"
     },
     {
@@ -366,7 +346,7 @@
       "category":"Trends"
     },
     {
-      "word":"Wearables",
+      "word":"Wearable",
       "category":"Tech"
     },
     {
@@ -385,9 +365,14 @@
 
   ],
   "categories":
-  [ "a",
-    "b",
-    "c",
-    "d"
+  [ "...solutions",
+    "Trends",
+    "Tech",
+    "Business",
+    "SE",
+    "Startup",
+    "People",
+    "Compliance",
+    "Verb"
   ]
 }
