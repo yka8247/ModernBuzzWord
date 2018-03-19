@@ -1,12 +1,13 @@
 <!-- Word List Directive -->
 <div layout="row" layout-align="center">
-    <div layout="column" ng-repeat="categoru in categories">
+    <div layout="column" ng-repeat="category in categories">
+        <h3>{{ category }}</h3>
         <div class="md-flex">
             <md-content>
                 <md-list flex layout-padding>
-                    <md-list-item ng-repeat="false">
+                    <md-list-item ng-repeat="wrd in wordList">
                         <div>
-                            <h3>{{ category }}</h3>
+                            <h7>{{ wrd.word }}</h7>
                         </div>
                     </md-list-item>
                 </md-list>
