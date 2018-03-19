@@ -4,11 +4,9 @@
         <h3>{{ category }}</h3>
         <div class="md-flex">
             <md-content>
-                <md-list flex layout-padding>
-                    <md-list-item ng-repeat="wrd in wordList">
-                        <div>
-                            <h7>{{ wrd.word }}</h7>
-                        </div>
+                <md-list flex layout-padding  ng-repeat="wrd in wordList">
+                    <md-list-item ng-if="wrd.category == category">
+                        <button> {{wrd.word}} </button>
                     </md-list-item>
                 </md-list>
             </md-content>
