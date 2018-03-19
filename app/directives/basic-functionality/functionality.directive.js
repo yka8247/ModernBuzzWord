@@ -28,4 +28,4 @@ bf.directive('basicFunctionality', function() {
       $scope.checkWords();
     }
   }
-})
+});
