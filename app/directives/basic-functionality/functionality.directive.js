@@ -6,7 +6,7 @@ bf.directive('basicFunctionality', function() {
     controller: function($scope, DataService, SharedPropertiesService) {
 
       // This grabs the buzzwords from the main JSON file.
-      // In here only as an example, doesnt need to be used in this directive at all
+      // In here only as an example, doesn't need to be used in this directive at all
       DataService.loadBuzzwords()
         .then(function(response) {
           $scope.allBuzzwords = response.data;
@@ -23,9 +23,9 @@ bf.directive('basicFunctionality', function() {
         } else {
           $scope.output = "Select words below to create something special..."
         }
-      }
+      };
 
       $scope.checkWords();
     }
   }
-})
+});
