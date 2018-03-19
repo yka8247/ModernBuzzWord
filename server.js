@@ -13,9 +13,6 @@ app.get('/', function(req, res) {
   // client code
   app.use('/dist', express.static(__dirname + '/dist'));
 
-  //
-  app.use('./directives/categories/catWordList.json');
-
   res.sendFile(path.join(__dirname + '/index.html'));
 });
 
