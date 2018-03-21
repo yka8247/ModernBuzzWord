@@ -13,17 +13,31 @@ bf.directive('basicFunctionality', function() {
         });
       $scope.test = "test from basic functionality directive";
       $scope.selectedWords = SharedPropertiesService.getWords();
-      $scope.output = "";
+      $scope.output = "Select words below to create something special...";
 
-
-      $scope.checkWords = function() {
-        if($scope.selectedWords.length > 0) {
-          for(var i = 0; i < $scope.selectedWords.length; i++)
-            $scope.output = $scope.output + " " + $scope.selectedWords[i];
-        } else {
-          $scope.output = "Select words below to create something special..."
+      $scope.checkWords = function(currWord) {
+          console.log
+        if($scope.output.split().length > 3) {
+            if ($scope.output === "Select words below to create something special..." && currWord !== undefined) {
+                console.log(type(currWord));
+                $scope.output = "";
+                $scope.output = $scope.output + " " + currWord;
+            }
+            else{
+                $scope.output = "Only Three Allowed... Try Again";
+            }
         }
-      }
+        else if ($scope.output.split().length < 4){
+            for (let i = 0; i < $scope.output.split().length; i++) {
+                $scope.output = $scope.output + " " + currWord;
+            }
+        }
+      };
+
+
+      $scope.clearOutput = function(){
+          $scope.output = "Select words below to create something special...";
+      };
 
       $scope.checkWords();
     }
