@@ -14,6 +14,6 @@ app.get('/', function(req, res) {
   app.use('/dist', express.static(__dirname + '/dist'));
 
   res.sendFile(path.join(__dirname + '/index.html'));
-})
+});
 
-app.listen(3000, () => console.log('App listening on port 3000!'))
+app.listen(3000, () => console.log('App listening on port 3000!'));

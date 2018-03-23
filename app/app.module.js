@@ -3,5 +3,6 @@ angular.module('modernBuzzwordApp', [
   'routing',
   'BasicFunctionality',
   'ngMaterial',
+  'CatWordList',
   'ModernBuzzwordServices'
 ]);
