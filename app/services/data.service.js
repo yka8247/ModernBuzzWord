@@ -19,7 +19,8 @@ s.factory('SharedPropertiesService', function() {
   };
 
   service.addWord = function(word) {
-    service.selectedWords.push(word);
+      if(service.selectedWords.length != 3)
+        service.selectedWords.push(word);
   };
 
   service.resetWords = function() {

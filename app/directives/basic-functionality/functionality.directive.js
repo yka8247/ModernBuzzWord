@@ -6,7 +6,6 @@ bf.directive('basicFunctionality', function() {
     controller: function($scope, DataService, SharedPropertiesService) {
 
       $scope.test = "test from basic functionality directive";
-      $scope.selectedWords = SharedPropertiesService.getWords();
       $scope.output = SharedPropertiesService.getWords();
 
       $scope.makeRandomWords = function() {
@@ -19,23 +18,6 @@ bf.directive('basicFunctionality', function() {
                 $scope.output = _.sampleSize(allwords, 3);
             });
       }
-
-      $scope.checkWords = function(currWord) {
-        if($scope.output.split().length > 3) {
-            if ($scope.output === "Select words below to create something special..." && currWord !== undefined) {
-                $scope.output = "";
-                $scope.output = $scope.output + " " + currWord;
-            }
-            else{
-                $scope.output = "Only Three Allowed... Try Again";
-            }
-        }
-        else if ($scope.output.split().length < 4){
-            for (let i = 0; i < $scope.output.split().length; i++) {
-                $scope.output = $scope.output + " " + currWord;
-            }
-        }
-      };
 
       $scope.clearOutput = function(){
           SharedPropertiesService.resetWords();
