@@ -19,7 +19,7 @@ s.factory('SharedPropertiesService', function() {
   };
 
   service.addWord = function(word) {
-      if(service.selectedWords.length != 3)
+      if(service.selectedWords.length != 3 && !service.selectedWords.includes(word))
         service.selectedWords.push(word);
   };
 

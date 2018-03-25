@@ -5,7 +5,6 @@ bf.directive('basicFunctionality', function() {
     templateUrl: 'app/directives/basic-functionality/basic-functionality.html',
     controller: function($scope, DataService, SharedPropertiesService) {
 
-      $scope.test = "test from basic functionality directive";
       $scope.output = SharedPropertiesService.getWords();
 
       $scope.makeRandomWords = function() {
