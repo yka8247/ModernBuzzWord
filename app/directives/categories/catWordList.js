@@ -10,7 +10,6 @@ wordList.directive('catWordList', function () {
                     $scope.categories = response.data.categories;
                 });
             $scope.addWord = function(word) {
-                console.log('button pressed');
                 SharedPropertiesService.addWord(word);
             };
         }
