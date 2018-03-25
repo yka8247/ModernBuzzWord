@@ -20,13 +20,15 @@
   "dependencies": {
     "@uirouter/angularjs": "^1.0.15",
     "angular": "^1.6.9",
-    "angular-ui-router": "^0.2.18",
+    "angular-ui-router": "^1.0.3",
+    "bower": "^1.8.2",
     "express": "^4.16.2",
+    "nodemon": "^1.17.1",
     "underscore": "^1.8.3",
     "wiredep": "^4.0.0"
   },
   "devDependencies": {
-    "gulp": "3.7.0",
+    "gulp": "^3.7.0",
     "gulp-concat": "^2.6.1",
     "gulp-inject": "^4.3.0",
     "gulp-sequence": "^1.0.0",
