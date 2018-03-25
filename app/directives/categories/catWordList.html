@@ -6,7 +6,7 @@
                 <h3>{{ category }}</h3>
                 <md-list flex layout-padding  ng-repeat="wrd in wordList" ng-if="wrd.category == category">
                     <md-list-item>
-                        <button ng-click="checkWords(wrd.word)"> {{wrd.word}} </button>
+                        <button ng-click="addWord(wrd.word)"> {{wrd.word}} </button>
                     </md-list-item>
                 </md-list>
             </md-content>

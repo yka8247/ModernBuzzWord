@@ -12,7 +12,6 @@ s.factory('DataService', function($http) {
 s.factory('SharedPropertiesService', function() {
 
   var service = {};
-  //left test strings in here, should actually be empty
   service.selectedWords = [];
 
   service.getWords = function() {

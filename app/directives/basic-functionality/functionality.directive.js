@@ -5,21 +5,24 @@ bf.directive('basicFunctionality', function() {
     templateUrl: 'app/directives/basic-functionality/basic-functionality.html',
     controller: function($scope, DataService, SharedPropertiesService) {
 
-      // This grabs the buzzwords from the main JSON file.
-      // In here only as an example, doesnt need to be used in this directive at all
-      DataService.loadBuzzwords()
-        .then(function(response) {
-          $scope.allBuzzwords = response.data;
-        });
       $scope.test = "test from basic functionality directive";
       $scope.selectedWords = SharedPropertiesService.getWords();
-      $scope.output = "Select words below to create something special...";
+      $scope.output = SharedPropertiesService.getWords();
+
+      $scope.makeRandomWords = function() {
+          DataService.loadBuzzwords()
+            .then(function(response) {
+                var allwords = [];
+                var data = response.data.words;
+                for(var i = 0; i < data.length; i++)
+                    allwords.push(data[i].word);
+                $scope.output = _.sampleSize(allwords, 3);
+            });
+      }
 
       $scope.checkWords = function(currWord) {
-          console.log
         if($scope.output.split().length > 3) {
             if ($scope.output === "Select words below to create something special..." && currWord !== undefined) {
-                console.log(type(currWord));
                 $scope.output = "";
                 $scope.output = $scope.output + " " + currWord;
             }
@@ -34,12 +37,10 @@ bf.directive('basicFunctionality', function() {
         }
       };
 
-
       $scope.clearOutput = function(){
-          $scope.output = "Select words below to create something special...";
+          SharedPropertiesService.resetWords();
+          $scope.output = SharedPropertiesService.getWords();
       };
-
-      $scope.checkWords();
     }
   }
 });
