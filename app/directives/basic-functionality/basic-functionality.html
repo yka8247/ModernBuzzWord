@@ -1,13 +1,16 @@
-<!-- Basic Funtionality Directive -->
-<div layout-align="center center" layout="column">
-  <h2>{{output}}</h2>
+<!-- Basic Functionality Directive -->
+<md-toolbar>
+    <div class="md-toolbar-tools">
+    <h1 class="md-truncate-flex">Modern Buzzwords</h1>
+        <md-button ng-click="makeRandomWords()">Random</md-button>
+        <md-button ng-click="clearOutput()">Clear</md-button>
+    </div>
+</md-toolbar>
+<div layout-align="center center" layout="row">
+    <h2 ng-if="output.length == 0">Choose words below to invent something.</h2>
+    <div ng-if="output.length > 0" ng-repeat="word in output">
+        <h2>&nbsp;{{word}}&nbsp;</h2>
+    </div>
 </div>
 
-<div layout="row" layout-align="center center">
-  <div layout="column" >
-      <md-button md-no-ink class="md-primary">Random</md-button>
-  </div>
-  <div layout="column" >
-      <md-button md-no-ink class="md-primary">Select Category</md-button>
-  </div>
-</div>
+

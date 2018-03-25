@@ -12,15 +12,15 @@ s.factory('DataService', function($http) {
 s.factory('SharedPropertiesService', function() {
 
   var service = {};
-  //left test strings in here, should actually be empty
-  service.selectedWords = ['word1', 'word2', 'word3'];
+  service.selectedWords = [];
 
   service.getWords = function() {
     return service.selectedWords;
   };
 
   service.addWord = function(word) {
-    service.selectedWords.push(word);
+      if(service.selectedWords.length != 3 && !service.selectedWords.includes(word))
+        service.selectedWords.push(word);
   };
 
   service.resetWords = function() {
